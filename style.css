@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.full-website {
+   
+}
+    
+.banner {
+    background: url(./images/banner/banner1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 222px 0;
+}
+
+.ba-con {
+  margin: 0 200px;
+  text-align: right;
+}
+.ba-con h1 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.ba-con p {
+    margin-left: 545px;
+    padding: 15px 0;
+}
+.btn-pri{
+    color: #fff;
+    background: #f15b22;
+    padding: 13px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* about section */
+.about{
+    display: flex;
+    padding: 70px 0;
+    margin: 0 200px;
+}
+.left-img img{
+    background: url(./images/);
+    height: 550px;
+}
+
+.right-con{
+    text-align: left;
+    padding-left: 15px;
+    margin: auto;
+}
+.right-con h1{
+    font-size: 33px;
+    font-family: roboto;
+    font-weight: 800;
+}
+.right-con P{
+    padding: 13px 0;
+    font-size: 18px;
+}
+.right-con ul li i{
+    color: green;
+    padding: 5px 0;
+    padding-right: 8px;
+    font-size: 16px;
+}
+.right-con ul li{
+    list-style: none;
+}
+
+/* my plan secton */
+.plan{
+    margin: 60px 200px;
+    
+}
+.plan h2{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 40px;
+}
+.skill-container{
+    display: flex;
+    text-align: center;
+}
+.skill{
+    width: 24%;
+}
+.skill h3{
+    font-size: 22px;
+    font-weight: 600;
+    padding: 4px 0;
+}
+
+/* watch-gradient section */
+.watch-gradient{
+    margin: 0 200px;
+    padding: 80px 0;
+}
+.watch{
+    background: url(./images/watch.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 70px 0;
+    border-radius: 10px;
+    background-position: top center;
+    background-image: linear-gradient(to right,#ec5a23, #8f7d50);
+    
+}
+.watch h1{
+    padding-left: 55px;
+    color: #fff;
+}
+.watch button{
+    display: inline-block;
+    padding: 15px 25px;
+    border-radius: 5px;
+    margin-left: 55px;
+    margin-top: 20px;
+    border: none;
+}
+
+/* futter section */
+.futter{
+    background-color: #151414;
+    color: #fff;
+}
+.futter-contant{
+    margin: 0 200px;
+    display: flex;
+    padding: 90px 0;
+    
+}
+
+.futter-left{
+    width: 45%;
+    display: inline-block;
+    text-align: left;
+}
+.futter-left h2{
+    padding-bottom: 10px;
+}
+.futter-left p{
+    font-size: 16px;
+    font-weight: 300;
+    padding: 5px 0;
+    color: #ddd;
+}
+.futter-left ul{
+    display: flex;
+
+}
+.futter-left ul li{
+ list-style: none;
+ display: inline-block;
+ margin-right: 15px;
+ margin-top: 15px;
+}
+.futter-right{
+    text-align: right;
+    width: 50%;
+    display: inline-block;
+}
+.futter-right h2{
+    padding-bottom: 10px;
+
+}
+.futter-right p{
+    border: 1px solid #fff;
+    padding: 15px 90px 15px 15px;
+    display: inline-block;
+    border-radius: 10px;
+}
+.futter-right button{
+    color: #f15f28;
+    padding: 13px 35px;
+    border-radius: 10px;
+    margin-top: 11px;
+}
